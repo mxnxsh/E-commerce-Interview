@@ -5,13 +5,13 @@ const data = {
       name: 'Manish',
       email: 'admin@example.com',
       password: bcrypt.hashSync('123456', 8),
-      isadmin: true
+      isAdmin: true
     },
     {
       name: 'Mayank',
       email: 'user@example.com',
       password: bcrypt.hashSync('123456', 8),
-      isadmin: false
+      isAdmin: false
     }
   ],
 
@@ -41,7 +41,7 @@ const data = {
     {
       name: 'Lacoste Free Shirt',
       category: 'Shirts',
-      image: '/shirt3.png',
+      image: './images/shirt3.png',
       price: 220,
       countInStock: 0,
       brand: 'Lacoste',
